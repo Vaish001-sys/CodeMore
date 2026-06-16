@@ -1,0 +1,18 @@
+# Python cache files (created automatically, don't need to upload these)
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders (if you ever use one)
+venv/
+env/
+.venv/
+
+# VS Code settings (personal editor settings, not needed by others)
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS junk files
+.DS_Store        # Mac
+Thumbs.db        # Windows
