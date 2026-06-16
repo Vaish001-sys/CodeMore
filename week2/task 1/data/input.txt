@@ -1,0 +1,5 @@
+Python is a popular programming language that is easy to learn and fun to use.
+It is used in many fields like web development, data science, and automation.
+Many beginners start with Python because the code is simple and easy to read.
+This file is used to test the word counting program in this project.
+The program will open this file, read all the text, and count the total number of words.
