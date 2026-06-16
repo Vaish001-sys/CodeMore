@@ -1,0 +1,40 @@
+# .gitignore for Python beginners
+# This file tells Git which files/folders to NOT upload to GitHub.
+
+# ── Python cache files ─────────────────────────────
+# Python creates these automatically when you run your code.
+# They are not needed and can be safely ignored.
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Virtual environments ───────────────────────────
+# If you set up a virtual environment, ignore its folder.
+venv/
+env/
+.env/
+.venv/
+
+# ── OS-generated files ─────────────────────────────
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# ── Editor/IDE settings ────────────────────────────
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ── Logs and temporary files ───────────────────────
+*.log
+*.tmp
+
+# ── Sensitive files (never upload these!) ──────────
+*.env
+secrets.py
+config_private.py
