@@ -1,0 +1,67 @@
+# =============================================================
+# .gitignore — Python Internship Project
+# Week 1: Conditional Statements & Loops
+# =============================================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ----- IDE & Editor -----
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ----- OS Files -----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ----- Logs & Temp -----
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ----- Docs Build -----
+# Ignore compiled/generated docs, but keep source .md files
+docs/*.pdf
+docs/screenshots/*.png
+docs/screenshots/*.jpg
+
+# Keep the docs folder itself tracked
+!docs/
+!docs/control_flow_report.md
+!docs/screenshots/
